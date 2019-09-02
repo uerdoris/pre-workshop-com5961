@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Image Gallery</title>
+    <script type="text/javascript" src="scripts/showPic.js"></script>
+</head>
+
+<body>
+
+  <h1>Snapshots</h1>
+  <ul>
+      <li>
+          <a href="images/fireworks.png" onclick="showPic(this); 
+          return false;" title="A fireworks display">
+        Fireworks</a>
+      </li>
+      <li>
+            <a href="images/coffee.png" onclick="showPic(this); 
+            return false;" title="A cup of black coffee">
+          Coffee</a>
+        </li>
+        <li>
+            <a href="images/rose.png" 
+            onclick="showPic(this); return false;" title="A red,red rose">
+            Rose</a>
+        </li>
+        <li>
+            <a href="images/bigben.png" 
+            onclick="showPic(this); return false;" title="The famous clock">
+            Big Ben</a>
+        </li>
+
+  </ul>
+     <img id="placeholder" src="images/placeholder.jpg"
+     alt="my image gallery" />
+
+</body>
+</html> 
